@@ -25,7 +25,6 @@ if (selected == 'Diabetes Prediction'):
     # page title
     st.title('Diabetes Prediction')
     
-    
     # getting the input data from the user
     col1, col2, col3 = st.columns(3)
     
@@ -68,8 +67,6 @@ if (selected == 'Diabetes Prediction'):
           diab_diagnosis = 'The person is not diabetic'
         
     st.success(diab_diagnosis)
-
-
 
 
 # Heart Disease Prediction Page
@@ -119,8 +116,6 @@ if (selected == 'Heart Disease Prediction'):
     with col1:
         thal = st.text_input('thal: 0 = normal; 1 = fixed defect; 2 = reversable defect')
         
-        
-     
      
     # code for Prediction
     heart_diagnosis = ''
@@ -137,8 +132,6 @@ if (selected == 'Heart Disease Prediction'):
         
     st.success(heart_diagnosis)
         
-    
-    
 
 # Parkinson's Prediction Page
 if (selected == "Parkinsons Prediction"):
